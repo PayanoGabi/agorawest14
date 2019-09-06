@@ -1,9 +1,15 @@
+
 header {
   text-align: center;
+  font-family:"Lato", sans-serif;
+  border-bottom: solid;
+  border-color: #005282;
+
 
 }
 .top-Section{
   text-align: center;
+  font-family:"Lato", sans-serif;
 }
 
 .firstButton{
@@ -15,5 +21,36 @@ header {
   justify-content: center;
   color: white;
   background-color: #005282;
+  border-radius: 10px;
+  max-width: 250px;
+  font-weight: bold;
+  margin: 20px;
+  padding: 15px;
 
+}
+.webinarButton: hover {
+  color:blue;
+  cursor: pointer;
+}
+.first-Midsection {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+
+}
+.one-box{
+  display: flex;
+  flex-direction: row;
+  background-color: #71a1be;
+  text-align: center;
+  color: white;
+}
+.two-box {
+  display: flex;
+  flex-direction: row;
+  background-color: #71a1be;
+  text-align: center;
+  color: white;
+}
+.sec-Midsection{
 }
