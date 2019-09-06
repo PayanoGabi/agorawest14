@@ -52,5 +52,19 @@ header {
   text-align: center;
   color: white;
 }
-.sec-Midsection{
+.second-Midsection{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.three-box{
+  background-color: #05263a
+  padding:50px;
+}
+.four-box{
+  background-color:#d1c8c8;
+  padding: 50px;
+}
+ul {
+  list-style-image: url("//images/checkmarkbox.png");
 }
