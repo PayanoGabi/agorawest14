@@ -1,0 +1,19 @@
+header {
+  text-align: center;
+
+}
+.top-Section{
+  text-align: center;
+}
+
+.firstButton{
+  display: flex;
+  justify-content: center;
+}
+.webinarButton {
+  display: flex;
+  justify-content: center;
+  color: white;
+  background-color: #005282;
+
+}
