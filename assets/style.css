@@ -166,6 +166,9 @@ body{
 .top-Section{
   padding:0px;
 }
+.top-Section h1{
+  font-size: 1.2em;
+}
 .first-Midsection {
   display: flex;
   flex-direction: column;
