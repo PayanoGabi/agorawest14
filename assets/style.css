@@ -186,6 +186,9 @@ body{
 .two-box{
   padding:20px
 }
+.three-box img {
+  width: 15pc;
+}
 .arrowDown{
 margin-left:37%;
 }
