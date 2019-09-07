@@ -1,4 +1,4 @@
-body{
+body {
   padding: 10%;
 }
 header {
@@ -15,16 +15,16 @@ hr {
   margin-right: 20%;
   border-style: solid;
 }
-.top-Section{
+.top-Section {
   text-align: center;
   font-family:"Lato", sans-serif;
   padding: 20px 220px 20px 220px;
 }
-.top-Section h1{
+.top-Section h1 {
   font-size: 1.5em;
 }
 
-.firstButton{
+.firstButton {
   display: flex;
   justify-content: center;
 }
@@ -46,7 +46,7 @@ hr {
 #calendarPic {
   max-width: 8pc;
 }
-.one-box{
+.one-box {
   display: flex;
   flex-direction: column;
   background-color: #71a1be;
@@ -66,24 +66,24 @@ hr {
   margin-bottom: 55px;
 
 }
-.second-Midsection{
+.second-Midsection {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
   margin-top: -20px;
 }
-.three-box{
+.three-box {
   background-color: #05263a;
   padding:50px;
   text-align: center;
   color: white;
   font-family:"Lato", sans-serif;
 }
-.three-box p{
+.three-box p {
   font-style: italic;
 }
 
-.four-box{
+.four-box {
   background-color:#edebeb;
   padding: 50px;
   font-family: arial, sans-serif;
@@ -99,14 +99,14 @@ hr {
 .list-ul p {
   margin-top: 0px;
 }
-footer{
+footer {
   text-align: center;
   display: flex;
   flex-direction: column;
   justify-content: center;
 
 }
-#warningSymbol{
+#warningSymbol {
   max-width:5%;
   margin-right: 10px;
 }
@@ -120,7 +120,7 @@ footer{
   margin-top: 15px;
   font-size: 1em;
 }
-.blueSection{
+.blueSection {
   background-color: #05263a;
   color: white;
   padding: 10px;
@@ -128,7 +128,7 @@ footer{
   font-family: arial, sans-serif;
 
 }
-.arrowDown{
+.arrowDown {
   display: flex;
   justify-content: center;
   width: 0;
@@ -138,7 +138,7 @@ footer{
   border-top: 45px solid #05263a;
   margin-left: 42%;
 }
-.checkbox-container2{
+.checkbox-container2 {
   margin-bottom: -15%;
 }
 .bottomButton {
@@ -159,17 +159,17 @@ footer{
   font-family: arial, sans-serif;
 }
 @media only screen and (max-width: 1160px){
-body{
+body {
   padding: 0%;
   margin: 0%;
 }
-.top-Section{
+.top-Section {
   padding:0px;
 }
-.top-Section h1{
+.top-Section h1 {
   font-size: 1.2em;
 }
-.first-Midsection h2{
+.first-Midsection h2 {
   padding: 55px;
 
 }
@@ -180,14 +180,14 @@ body{
   padding:0px;
   margin-bottom: -55px;
 }
-.pinkSection{
+.pinkSection {
   margin-top: 0px;
 }
 .pinkSection img {
   max-width: 0px;
   margin: 0px;
 }
-.second-Midsection{
+.second-Midsection {
   display: flex;
   flex-direction: column;
 }
@@ -200,24 +200,25 @@ body{
   margin-right: 0px;
   padding-top: 20px;
 }
-.two-box{
+.two-box {
   padding:20px
 }
 .three-box img {
   width: 15pc;
 }
-.arrowDown{
+.arrowDown {
 margin-left:32%;
 }
-.pinkSection{
+.pinkSection {
   font-size: 1em;
 }
-#calendarPic{
+
+#calendarPic {
   margin-left: 40%;
 
 }
-#warningSymbol{
-  max-width: 5%;
-  margin: 25px;
+#warningSymbol {
+  max-width: 0%;
+  margin: 0px;
 }
 }
