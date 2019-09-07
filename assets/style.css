@@ -183,6 +183,10 @@ body{
 .pinkSection{
   margin-top: 0px;
 }
+.pinkSection img {
+  max-width: 0px;
+  margin: 0px;
+}
 .second-Midsection{
   display: flex;
   flex-direction: column;
