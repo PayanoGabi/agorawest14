@@ -13,7 +13,9 @@ document.getElementById('second-checkbox').checked = true;
 
 } else {
   document.getElementById('first-checkbox').checked = false;
+  alert("Please check box!!");
   document.getElementById('second-checkbox').checked = false;
+  alert("Please check box!!");
 }
 }
   // Update the count down every 1 second
