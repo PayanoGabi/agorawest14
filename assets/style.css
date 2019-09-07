@@ -165,6 +165,8 @@ body{
 .first-Midsection {
   display: flex;
   flex-direction: column;
+  margin: 0px;
+  padding:0px;
 }
 .pinkSection{
   margin-top: 0px;
@@ -174,9 +176,23 @@ body{
   flex-direction: column;
 }
 .one-box {
-  margin-bottom: 0px
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin-bottom: 0px;
+  padding:0px;
+  margin-right: 0px;
 }
 .two-box{
   padding:20px
+}
+.arrowDown{
+margin-left:37%;
+}
+.pinkSection{
+  font-size: 1em;
+}
+#warningSymbol{
+  max-width: 5pc;
 }
 }
