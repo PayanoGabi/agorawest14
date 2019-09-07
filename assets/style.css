@@ -40,7 +40,7 @@ header {
 
 }
 #calendarPic {
-  max-width: 8pc;;
+  max-width: 8pc;
 }
 .one-box{
   display: flex;
@@ -153,4 +153,27 @@ footer{
   justify-content: center;
   text-align: center;
   font-family: arial, sans-serif;
+}
+@media only screen and (max-width: 1160px){
+body{
+  padding: 2%;
+}
+.top-Section{
+  padding:0px;
+}
+.first-Midsection {
+  display: flex;
+  flex-direction: column;
+}
+.pinkSection{
+  margin-top: 0px;
+}
+.second-Midsection{
+  display: flex;
+  flex-direction: column;
+}
+.one-box {
+  margin-bottom: 0px
+}
+
 }
