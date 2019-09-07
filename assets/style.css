@@ -1,15 +1,22 @@
-
+body{
+  padding: 15%;
+  margin-top: -250px;
+}
 header {
   text-align: center;
   font-family:"Lato", sans-serif;
   border-bottom: solid;
   border-color: #005282;
-
+  border-width: thick;
+  font-size: 2em;
 
 }
 .top-Section{
   text-align: center;
   font-family:"Lato", sans-serif;
+}
+.top-Section h1{
+  font-size: 3em;
 }
 
 .firstButton{
@@ -34,37 +41,95 @@ header {
 }
 .first-Midsection {
   display: flex;
-  flex-direction: row;
-  justify-content: space-around;
 
+}
+#calendarPic {
+  max-width: 8pc;;
 }
 .one-box{
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   background-color: #71a1be;
   text-align: center;
   color: white;
+  padding: 90px;
+  margin-bottom: 55px;
 }
 .two-box {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   background-color: #71a1be;
   text-align: center;
   color: white;
+  margin-left: 15px;
+  padding: 100px;
+  margin-bottom: 55px;
+
 }
 .second-Midsection{
   display: flex;
   flex-direction: row;
   justify-content: space-around;
+  margin-top: -15px;
+  margin-bottom: 15px;
 }
 .three-box{
-  background-color: #05263a
+  background-color: #05263a;
   padding:50px;
+  text-align: center;
+  color: white;
 }
 .four-box{
   background-color:#d1c8c8;
   padding: 50px;
 }
 ul {
-  list-style-image: url("//images/checkmarkbox.png");
+  list-style-image: url("//images/CheckmarkBox.png");
+}
+footer{
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+}
+#warningSymbol{
+  max-width:5%;
+}
+.pinkSection {
+  display: flex;
+  background-color: #f58c99;
+  color: white;
+  text-align: center;
+}
+.blueSection{
+  background-color: #05263a;
+  color: white;
+  padding: 10px;
+  font-style: italic;
+
+}
+.arrowDown{
+  display: flex;
+  justify-content: center;
+  width: 0;
+  height: 0;
+  border-left: 80px solid transparent;
+  border-right: 80px solid transparent;
+  border-top: 45px solid #05263a;
+  margin-left: 42%;
+}
+
+.bottomButton {
+  background-color: #005282;
+  color: white;
+  border-radius: 10px;
+  padding: 2%;
+  margin-top: 25px;
+}
+.bottomSection {
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
 }
