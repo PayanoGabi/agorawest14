@@ -2,12 +2,12 @@
 
   //<p id="two-box"></p>
 
-  // Set the date we're counting down to
-  var countDownDate = new Date("Sep 10, 2021 15:37:25").getTime();
+  // Set the date we're counting down to (5 days from todays date)
+  var countDownDate = new Date("Sep 12, 2019 00:00:00").getTime();
   // create event and function
   function syncCheckboxes(e){
     if(e.checked){
-      //get DOM element
+      //get DOM elements
 document.getElementById('first-checkbox').checked =true;
 document.getElementById('second-checkbox').checked = true;
 
