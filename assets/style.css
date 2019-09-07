@@ -1,6 +1,5 @@
 body{
-  padding: 15%;
-  margin-top: -250px;
+  padding: 10%;
 }
 header {
   text-align: center;
@@ -8,15 +7,17 @@ header {
   border-bottom: solid;
   border-color: #005282;
   border-width: thick;
-  font-size: 2em;
+  font-size: 1em;
+
 
 }
 .top-Section{
   text-align: center;
   font-family:"Lato", sans-serif;
+  padding: 20px 330px 20px 330px;
 }
 .top-Section h1{
-  font-size: 3em;
+  font-size: 1.5em;
 }
 
 .firstButton{
@@ -29,15 +30,10 @@ header {
   color: white;
   background-color: #005282;
   border-radius: 10px;
-  max-width: 250px;
   font-weight: bold;
   margin: 20px;
-  padding: 15px;
-
-}
-.webinarButton: hover {
-  color:blue;
-  cursor: pointer;
+  padding: 25px 55px;
+  max-width: 275px;
 }
 .first-Midsection {
   display: flex;
@@ -52,8 +48,9 @@ header {
   background-color: #71a1be;
   text-align: center;
   color: white;
-  padding: 90px;
+  padding: 40px 100px 40px 100px;
   margin-bottom: 55px;
+  margin-right: 20px
 }
 .two-box {
   display: flex;
@@ -61,8 +58,7 @@ header {
   background-color: #71a1be;
   text-align: center;
   color: white;
-  margin-left: 15px;
-  padding: 100px;
+  padding: 100px 160px;
   margin-bottom: 55px;
 
 }
@@ -70,21 +66,34 @@ header {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
-  margin-top: -15px;
-  margin-bottom: 15px;
+  margin-top: -20px;
 }
 .three-box{
   background-color: #05263a;
   padding:50px;
   text-align: center;
   color: white;
+  font-family:"Lato", sans-serif;
 }
+.three-box p{
+  font-style: italic;
+}
+
 .four-box{
-  background-color:#d1c8c8;
+  background-color:#edebeb;
   padding: 50px;
+  font-family: arial, sans-serif;
 }
-ul {
-  list-style-image: url("//images/CheckmarkBox.png");
+.four-box h3 {
+  text-align: center;
+
+}
+.list-ul {
+    list-style-image: url('https://d13p2xj50zkyqm.cloudfront.net/promos_1/AF/RGS/RGS_Hotlist_0617/RGS_Hotlist_0617_CheckmarkBox.png');
+    font-family:"Lato", sans-serif;
+}
+.list-ul p {
+  margin-top: 0px;
 }
 footer{
   text-align: center;
@@ -95,18 +104,24 @@ footer{
 }
 #warningSymbol{
   max-width:5%;
+  margin-right: 10px;
 }
 .pinkSection {
   display: flex;
+  justify-content: center;
   background-color: #f58c99;
   color: white;
   text-align: center;
+  font-family: arial, sans-serif;
+  margin-top: 15px;
+  font-size: 1em;
 }
 .blueSection{
   background-color: #05263a;
   color: white;
   padding: 10px;
   font-style: italic;
+  font-family: arial, sans-serif;
 
 }
 .arrowDown{
@@ -119,17 +134,23 @@ footer{
   border-top: 45px solid #05263a;
   margin-left: 42%;
 }
-
+.checkbox-container2{
+  margin-bottom: -15%;
+}
 .bottomButton {
   background-color: #005282;
   color: white;
   border-radius: 10px;
   padding: 2%;
-  margin-top: 25px;
+  font-family: arial, sans-serif;
+  margin: 20%;
+  font-weight: bold;
+
 }
 .bottomSection {
   display:flex;
   flex-direction: column;
   justify-content: center;
   text-align: center;
+  font-family: arial, sans-serif;
 }
