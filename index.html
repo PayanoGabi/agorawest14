@@ -17,12 +17,13 @@
       <h1>"In just days a Never-Before-Seen Gold Anomaly Will Create a Totally New Class of Penny Gold Stocks...</h1>
       <h1>I've Enlisted One of the World's Top Geologists to Help Me Reveal .. . Live on Camera...What This Coming <a href="#">Gold Mega-Catalyst</a> Is And How You Can Make as Much as <a href="#">$101,000 in Profit</a>."</h1>
       <label class="checkbox-container1">
-        <input type="checkbox" checked="checked">
+        <input id="second-checkbox" type="checkbox" checked="checked" onchange="syncCheckboxes(this)">
         <span class="checkmark">I would love to recieve a free news letter</span>
       </label>
     </div>
     <div class="firstButton">
-      <button class="webinarButton" type="button" name="button">Register for this FREE live Webinar Here! </button>
+      <button onclick="gotoAPI()" class="webinarButton" type="button" name="button">Register for this FREE live Webinar Here! </button>
+      <p id="somePTag"></p>
     </div>
     <section class="first-Midsection">
       <div class="one-box">
@@ -78,10 +79,10 @@
       </div>
       <div class="bottomSection">
         <label class="checkbox-container2">
-          <input type="checkbox" checked="checked">
+          <input id="first-checkbox" type="checkbox" checked="checked" onchange="syncCheckboxes(this)">
           <span class="checkmark">I would love to recieve a free news letter</span>
         </label>
-        <button  class="bottomButton" type="button" name="button">YES! Reserve My Spot Now! >>
+        <button onclick="gotoAPI()" class="bottomButton" type="button" name="button">YES! Reserve My Spot Now! >>
         </button>
 
       </div>
