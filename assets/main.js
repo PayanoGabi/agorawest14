@@ -2,8 +2,7 @@
 
   //<p id="two-box"></p>
 
-  // Set the date we're counting down to (5 days from todays date)
-  var countDownDate = new Date("Sep 12, 2019 00:00:00").getTime();
+
   // create event and function
   function syncCheckboxes(e){
     if(e.checked){
@@ -18,6 +17,9 @@ document.getElementById('second-checkbox').checked = true;
   alert("Please check box!!");
 }
 }
+
+// Set the date we're counting down to (5 days from todays date)
+var countDownDate = new Date("Sep 12, 2019 00:00:00").getTime();
   // Update the count down every 1 second
   var x = setInterval(function() {
 
