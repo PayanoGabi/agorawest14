@@ -169,6 +169,10 @@ body{
 .top-Section h1{
   font-size: 1.2em;
 }
+.first-Midsection h2{
+  padding: 55px;
+
+}
 .first-Midsection {
   display: flex;
   flex-direction: column;
@@ -199,17 +203,17 @@ body{
   width: 15pc;
 }
 .arrowDown{
-margin-left:34%;
+margin-left:32%;
 }
 .pinkSection{
   font-size: 1em;
-
 }
 #calendarPic{
   margin-left: 40%;
 
 }
 #warningSymbol{
-  max-width: 3%;
+  max-width: 5%;
+  margin: 25px;
 }
 }
